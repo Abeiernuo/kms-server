@@ -12,9 +12,9 @@
 
 ## 使用方法
 
-以 `kms.343.re` 为例，在成功部署以后：
+以 `notionplus.edu.kg` 为例，在成功部署以后：
 
-+ 在需要KMS服务的地方，填入 `kms.343.re` 即可激活；
++ 在需要KMS服务的地方，填入 `notionplus.edu.kg` 即可激活；
 
 + 可通过[网页](notionplus.edu.kg)或命令行curl获取激活密钥：
 
