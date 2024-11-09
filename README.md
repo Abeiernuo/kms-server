@@ -16,27 +16,27 @@
 
 + 在需要KMS服务的地方，填入 `kms.343.re` 即可激活；
 
-+ 可通过[网页](https://kms.343.re/)或命令行curl获取激活密钥：
++ 可通过[网页](notionplus.edu.kg)或命令行curl获取激活密钥：
 
 ```
 # 输出操作说明
-shell> curl kms.343.re
+shell> curl notionplus.edu.kg
 
 # 输出Windows的KMS密钥
-shell> curl kms.343.re/win
+shell> curl notionplus.edu.kg/win
 
 # 输出Windows Server的KMS密钥
-shell> curl kms.343.re/win-server
+shell> curl notionplus.edu.kg/win-server
 
 # 输出Office激活命令
-shell> curl kms.343.re/office
+shell> curl notionplus.edu.kg/office
 ```
 
 + 可用于测试其他KMS服务器是否正常：
 
 ```
 # 端口号可不填，默认为1688
-shell> curl kms.343.re/check/kms.dnomd343.top:1688
+shell> curl notionplus.edu.kg/check/kms.dnomd343.top:1688
 KMS Server: kms.dnomd343.top (1688) -> available
 ```
 
@@ -207,7 +207,7 @@ shell> nginx -s reload
 检查部署的KMS服务器是否正常，例如检测新搭建的服务器 `kms.dnomd343.top` ，执行以下命令：
 
 ```
-shell> curl kms.343.re/check/kms.dnomd343.top
+shell> curl notionplus.edu.kg/check/kms.dnomd343.top
 KMS Server: kms.dnomd343.top (1688) -> available
 ```
 
